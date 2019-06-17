@@ -308,7 +308,7 @@ function iniciaMenu() {
 
 // Incxlusão de node
 
-
+//1
 
 var nodeLi = document.createElement('li');
 
@@ -318,7 +318,7 @@ nodeDiv01.setAttribute('class','moldura');
 var nodeH4 = document.createElement('h4');   
 nodeH4.setAttribute('class','titulo');
 //nodeH4.setAttribute('class','elh4');
-var nodeTex01 = document.createTextNode("CRIANDO");
+var nodeTex01 = document.createTextNode("OPÇÃO01");
 nodeH4.appendChild(nodeTex01);
 
 var nodeA01 = document.createElement('a'); 
@@ -344,6 +344,122 @@ console.log('inserção de ITEM  inserção de ITEM  inserção de ITEM ');
 
 
 //==============================================================
+// Incxlusão de node
+
+//2
+
+var nodeLi = document.createElement('li');
+
+var nodeDiv01 = document.createElement('div');   
+nodeDiv01.setAttribute('class','moldura');
+
+var nodeH4 = document.createElement('h4');   
+nodeH4.setAttribute('class','titulo');
+//nodeH4.setAttribute('class','elh4');
+var nodeTex01 = document.createTextNode("OPÇÃO02");
+nodeH4.appendChild(nodeTex01);
+
+var nodeA01 = document.createElement('a'); 
+nodeA01.setAttribute("href","/exemplo07.php");
+var nodeTex02 = document.createTextNode("Na Unha");
+nodeA01.appendChild(nodeTex02);
+
+
+var nodeDiv02 = document.createElement('div');   
+nodeDiv02.setAttribute('class','caixa')
+nodeDiv02.appendChild(nodeA01);
+
+nodeDiv01.appendChild(nodeH4);
+nodeDiv01.appendChild(nodeDiv02);
+nodeLi.appendChild(nodeDiv01);
+
+var list = document.querySelector('ul'); 
+list.setAttribute('class','ulmargens');
+//insere o novo nodo LI como primeiro da lista!
+list.insertBefore(nodeLi, list.childNodes[1]);
+
+console.log('inserção de ITEM  inserção de ITEM  inserção de ITEM ');
+
+
+//==============================================================
+// Incxlusão de node
+
+//3
+
+var nodeLi = document.createElement('li');
+
+var nodeDiv01 = document.createElement('div');   
+nodeDiv01.setAttribute('class','moldura');
+
+var nodeH4 = document.createElement('h4');   
+nodeH4.setAttribute('class','titulo');
+//nodeH4.setAttribute('class','elh4');
+var nodeTex01 = document.createTextNode("OPÇÃO03");
+nodeH4.appendChild(nodeTex01);
+
+var nodeA01 = document.createElement('a'); 
+nodeA01.setAttribute("href","/exemplo07.php");
+var nodeTex02 = document.createTextNode("Na Unha");
+nodeA01.appendChild(nodeTex02);
+
+
+var nodeDiv02 = document.createElement('div');   
+nodeDiv02.setAttribute('class','caixa')
+nodeDiv02.appendChild(nodeA01);
+
+nodeDiv01.appendChild(nodeH4);
+nodeDiv01.appendChild(nodeDiv02);
+nodeLi.appendChild(nodeDiv01);
+
+var list = document.querySelector('ul'); 
+list.setAttribute('class','ulmargens');
+//insere o novo nodo LI como primeiro da lista!
+list.insertBefore(nodeLi, list.childNodes[1]);
+
+console.log('inserção de ITEM  inserção de ITEM  inserção de ITEM ');
+
+
+//==============================================================
+// Incxlusão de node
+
+//4
+
+var nodeLi = document.createElement('li');
+
+var nodeDiv01 = document.createElement('div');   
+nodeDiv01.setAttribute('class','moldura');
+
+var nodeH4 = document.createElement('h4');   
+nodeH4.setAttribute('class','titulo');
+//nodeH4.setAttribute('class','elh4');
+var nodeTex01 = document.createTextNode("OPÇÃO04 dE LASTEREBERGUN");
+nodeH4.appendChild(nodeTex01);
+
+var nodeA01 = document.createElement('a'); 
+nodeA01.setAttribute("href","/exemplo07.php");
+var nodeTex02 = document.createTextNode("Na Unha");
+nodeA01.appendChild(nodeTex02);
+
+
+var nodeDiv02 = document.createElement('div');   
+nodeDiv02.setAttribute('class','caixa')
+nodeDiv02.appendChild(nodeA01);
+
+nodeDiv01.appendChild(nodeH4);
+nodeDiv01.appendChild(nodeDiv02);
+nodeLi.appendChild(nodeDiv01);
+
+var list = document.querySelector('ul'); 
+list.setAttribute('class','ulmargens');
+//insere o novo nodo LI como primeiro da lista!
+list.insertBefore(nodeLi, list.childNodes[1]);
+
+console.log('inserção de ITEM  inserção de ITEM  inserção de ITEM ');
+
+
+//==============================================================
+
+//===============================================================
 var elemUl=document.getElementsByTagName('ul');
 console.log(elemUl);
 console.log(elemUl[0].clientWidth);
