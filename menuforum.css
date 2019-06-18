@@ -15,7 +15,10 @@
 	
 	position:absolute;
 	top:15px;
-	left:0px;
+	/* o valor do left posiciona com relação ao "botão" do menu 
+	   para ficar alinha ao "botão" colocar o mesmo  valor  que   
+	   scrollhorizon ul li                                      */ 
+	left:15px;
 	background-color: seagreen;
 	opacity:0.8;
 		/*border: solid 5px #222;*/
@@ -121,7 +124,7 @@ h4 {
 }
 
 .relativinho {
-	top:60px;
+	top: 70px;
 	/*bottom:0px;*/
 	position:relative;
 	 /*bottom 70px;*/
@@ -151,7 +154,7 @@ h4 {
 	display: inline;
 	position:relative;
 	top:0px;
-	padding-left: 15px;
+	padding-left: 15px; 
 }
 
 .elh4 {
@@ -202,3 +205,18 @@ h4 {
 	min-width:200px;
 }
 
+.branco {
+	position: relative;
+	
+	background-color: blue;
+	height: 40px;
+
+}
+
+
+
+
+thecomplete    873
+progabordo     872
+novinho        870
+estudomix      874
