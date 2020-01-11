@@ -2,8 +2,10 @@
 <html>
 <head>
     <title>Index do Curso</title>
-    <link rel="stylesheet" type="text/css" href="menuforum.css">
-    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    
+    <link rel="stylesheet" type="text/css" href="assets/menuforum.css">
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+    <meta charset="utf-8"> 
 
     <script type="text/javascript">
     	//window.onload = iniciaMenu();
@@ -17,18 +19,21 @@
     </script>
 </head>
 
-
+<!--https://docs.google.com/document/d/16tL4HP_5b1D860Y-HHaHXUhZr3pcf9MdH-0uwe2n03I/edit?usp=sharing -->
 <body>
-
-<h3 class="titfixo"> Menu PHP7</h3>
-<div class="scrollhorizon">
+<div class="container">
+  <div class="row">
+    <h3 class="titfixo col-sm-12 col-md-12 col-lg-12"> Vanilla Menu </h3>
+  </div>
+</div>
+<div class="scrollhorizon col-sm-12 col-md-12 col-lg-12">
   <ul>
   <li>	
     <div class="moldura">
-      <h4 class="titulo"> VARIÁVEIS </h4>   
+      <h4 class="titulo"> Vanilla JS </h4>   
       <div id="variaveis" class="caixa">   
-        <a href="./variaveis/exemplo04.php">Exemplo 04 Variáveis Pré-Definidas </a>	<br />
-        <a href="./variaveis/exemplo05.php">Exemplo 05 <strong>Escopo</strong> - Função </a>			<br />
+        <a href="https://carrinhovanilla.netlify.com/">Carrinho compras javascript </a>	<br />
+        <a href="https://vanillamenu.netlify.com/">Menu feito diretamente no DOM   </a>	<br />
       </div>
     </div>
   </li>
@@ -36,10 +41,10 @@
 
   <li>
     <div class="moldura">
-      <h4 class="titulo"> OPERADORES </h4> 
+      <h4 class="titulo"> ReactJS </h4> 
       <div id="operadores" class="caixa">          
-        <a href="./operadores/exemplo01.php">Exemplo 01 Operadores Atribuição e Novos </a>		<br />
-        <a href="./operadores/exemplo07.php?">Exemplo 07 Operadores Incrementais Decrementais </a>		<br />
+        <a href="https://comentaki-sid.firebaseapp.com">Comentaki (Mensageria)  </a>		<br />
+        <a href="https://gentle-beach-37321.herokuapp.com/">Minhas Series - Medias a assistir</a>		<br />
         <a href="./operadores/exemplo08.php?">Exemplo 08 Operadores Precedencia</a>		<br />
         <a href="./strings/exemplo01.php?">Exemplo 01 Strings</a>		<br />
       </div>
@@ -198,63 +203,81 @@
     </div>  
   </li>
 
+
   </ul>  
 </div>   
 
+
+
 <!--   era abaixo do script -->
-<main class="relativinho">
-
-  <p>
-      Pra que isto tudo?
-      Muito simples. Resolvi organizar meus estudos de HTML, CSS, PHP7, JavaScript. Muitas vezes tentei estudar estes skills,
-      mas sempre uma coisa ou outra acabava por me fazer parar.
-      Não pretendo mais parar. Mas se parar, na hora de recomeçar quero ter uma referência fácil pra me achar. Mudei minha forma de estudar. Faço exercícios das aulas que assisto e já os catalogo no menu correto, sob o título correto. 
-      Queria também fazer algo prático, colocar a mão na massa e misturar todas estas disciplinas e outras que forem surgindo no caminho. E cabem outras?! Cabem sim, e já estão aparecendo.
-  </p>
-
-  <p>Disto tudo está saindo um menu. Por enquanto um esqueleto, mas que já não vai mais me deixar perdido. O que é legal é que eu decidi a partir deste exerciciozão do menu, fazer uma abstração, ou seja o meu menu de estudos vai poder ser a base para muitos outros menus, tipo um construtor de menus. Ele está nascendo de vagar. Vai ser parametrizável(na verdade já é, mas através do código ainda).  
-      A grosso modo dá pra se dizer que é só criar os títulos e os subtítulos e dizer pro programa quais os links associados a cada subtitulo. Por exemplo, se fiz os exercício 01 e 02, de matemática, no item percentual e criei um html para cada um deles, chamados de matexerc01.html e matexerc03.html. E se, além disto, fiz resumos 01, 02 e 03 da aula 42 de php7 e criei html pra estes resumos, entitulados de php7a42resu01.php, php7a42resu02.php, php7a42resu03.php. Informando estes dados para o programa ele irá gerar o menu. 
-  </p> 
-
-  <p>
-      Por que menu? 
-      Porque ele permite trabalhar bastante o css com html e, também, porque podemos abusar da árvore do DOM, que é outro assunto que está na minha lista.  Para manipular os comportamentos dos dados, uso o JavaScript. Portanto, pra o meu estudo, criar menus é o casamento perfeito! Já o PHP7 estou estudando e ele n~]ao participa, por enquanto da construção do menu.
-      Sim, por enquanto, pois num próximo passo, todos os tópicos do menu serão gravados no banco de dados e virão também de lá. Aí, sim, teremos a automação completa do menu. Somando tudo, o estudo  poderia virar uma bagunça, mas virou uma grande brincadeira. Aí o menu se torna indispensável. Assim, o útil se juntou ao agradável. Bora quebrar um pouco a cabeça e sair do lugar comum...
-      Eu nunca pensei que iria dar tanta importância a um menu, mas garanto que este está me dando muita oportunidade de aprender, e me motivando a não desistir. Tá sendo um barato esta junção de disciplinas.
-  </p>
-
-    
-    <p>
+<div class="container my-5"> 
+  <main class="relativinhos col-sm-12 col-md-12 col-lg-12">
+  <div class="row">
+    <div class="col-sm-10 col-md-10 col-lg-5" >
+      <p>
+          Pra que isto tudo?
+          Muito simples. Resolvi organizar meus estudos de HTML, CSS, PHP7, JavaScript. Muitas vezes tentei estudar estes skills,
+          mas sempre uma coisa ou outra acabava por me fazer parar.
+          Não pretendo mais parar. Mas se parar, na hora de recomeçar quero ter uma referência fácil pra me achar. Mudei minha forma de estudar. Faço exercícios das aulas que assisto e já os catalogo no menu correto, sob o título correto. 
+          Queria também fazer algo prático, colocar a mão na massa e misturar todas estas disciplinas e outras que forem surgindo no caminho. E cabem outras?! Cabem sim, e já estão aparecendo.
+      </p>
+    </div>
+    <div class="col-sm-10 col-md-10 col-lg-5">
+      <p>Disto tudo está saindo um menu. Por enquanto um esqueleto, mas que já não vai mais me deixar perdido. O que é legal é que eu decidi a partir deste exerciciozão do menu, fazer uma abstração, ou seja o meu menu de estudos vai poder ser a base para muitos outros menus, tipo um construtor de menus. Ele está nascendo de vagar. Vai ser parametrizável(na verdade já é, mas através do código ainda).  
+          A grosso modo dá pra se dizer que é só criar os títulos e os subtítulos e dizer pro programa quais os links associados a cada subtitulo. Por exemplo, se fiz os exercício 01 e 02, de matemática, no item percentual e criei um html para cada um deles, chamados de matexerc01.html e matexerc03.html. E se, além disto, fiz resumos 01, 02 e 03 da aula 42 de php7 e criei html pra estes resumos, entitulados de php7a42resu01.php, php7a42resu02.php, php7a42resu03.php. Informando estes dados para o programa ele irá gerar o menu. 
+      </p> 
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-10 col-md-10 col-lg-5">
+      <p>
+          Por que menu? 
+          Porque ele permite trabalhar bastante o css com html e, também, porque podemos abusar da árvore do DOM, que é outro assunto que está na minha lista.  Para manipular os comportamentos dos dados, uso o JavaScript. Portanto, pra o meu estudo, criar menus é o casamento perfeito! Já o PHP7 estou estudando e ele n~]ao participa, por enquanto da construção do menu.
+          Sim, por enquanto, pois num próximo passo, todos os tópicos do menu serão gravados no banco de dados e virão também de lá. Aí, sim, teremos a automação completa do menu. Somando tudo, o estudo  poderia virar uma bagunça, mas virou uma grande brincadeira. Aí o menu se torna indispensável. Assim, o útil se juntou ao agradável. Bora quebrar um pouco a cabeça e sair do lugar comum...
+          Eu nunca pensei que iria dar tanta importância a um menu, mas garanto que este está me dando muita oportunidade de aprender, e me motivando a não desistir. Tá sendo um barato esta junção de disciplinas.
+      </p>
+    </div>
+    <div class="col-sm-10 col-md-10 col-lg-5">
+        <p>
+            Próximos passos?
+            Em primeiro lugar, avançar o estudo nestas 4 ferramentas. Fazer bastante exercícios do estilo deste. Talvez vire o núcleo de um mini Frame Work pessoal, onde eu possa incluir todos os utilitários que vou criar durante o tempo. Espero que sim!rem.
+            Em segundo lugar, fazer um portfolio em que uso estas ferramentas, quero mostrar que os veteranos, jurássicos do mainframe, podem aprender mesmo não sendo tão jovens e ainda produzir bem. Pois trabalhar é preciso.
+        </p>
+    </div>   
+    <div class="row">     
+    <div class="col-sm-10 col-md-10 col-lg-5">
+      <p>
+          Próximos passos?
+          Em primeiro lugar, avançar o estudo nestas 4 ferramentas. Fazer bastante exercícios do estilo deste. Talvez vire o núcleo de um mini Frame Work pessoal, onde eu possa incluir todos os utilitários que vou criar durante o tempo. Espero que sim!rem.
+          Em segundo lugar, fazer um portfolio em que uso estas ferramentas, quero mostrar que os veteranos, jurássicos do mainframe, podem aprender mesmo não sendo tão jovens e ainda produzir bem. Pois trabalhar é preciso.
+      </p>
+    </div>        
+    <div class="col-sm-10 col-md-10 col-lg-5">
+      <p>
         Próximos passos?
         Em primeiro lugar, avançar o estudo nestas 4 ferramentas. Fazer bastante exercícios do estilo deste. Talvez vire o núcleo de um mini Frame Work pessoal, onde eu possa incluir todos os utilitários que vou criar durante o tempo. Espero que sim!rem.
         Em segundo lugar, fazer um portfolio em que uso estas ferramentas, quero mostrar que os veteranos, jurássicos do mainframe, podem aprender mesmo não sendo tão jovens e ainda produzir bem. Pois trabalhar é preciso.
-    </p>
-        Where does it come from?
-        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-    <p>
-        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
-    </p>
-<div class="scrollhorizon1">
-<ul> 
-    <li>|texto 01 </li>
-    <li>|texto 02 </li>
-    <li>|texto 03 </li>
-    <li>|texto 04 </li>
-    <li>|texto 05 </li>
-    <li>|texto 06 |</li>
-</ul>		
-</div>		
-    <p>
-        Why do we use it?
-        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-    </p>
-    <p>
-        Where can I get some?
-        There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-</p>
-<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
-</p>
-</main>	
+     </p>
+    </div>        
+  </div>
+
+
+  <div class="row scrollhorizon1 col-sm-12 col-md-12 col-lg-12">
+  <ul> 
+      <li>|texto 01 </li>
+      <li>|texto 02 </li>
+      <li>|texto 03 </li>
+      <li>|texto 04 </li>
+      <li>|texto 05 </li>
+      <li>|texto 06 |</li>
+  </ul>		
+  </div>		
+
+  </main>	
+</div>
+
+
+
 <br />
 <br />	
 <br />
@@ -263,7 +286,7 @@
 <br />	
 
 
-<div class="scrollhorizon2">
+<div class="scrollhorizon2 col-sm-12 col-md-12 col-lg-12">
   <ul>
     <li>
       <div class="moldura">
@@ -295,7 +318,7 @@
   </ul>
 </div>
 
-<div class="scrollhorizon3">
+<div class="scrollhorizon3 col-sm-12 col-md-12 col-lg-12">
   <ul>
     <li>
       <div class="moldura">
@@ -410,9 +433,7 @@ const menu = (menuId) => {
     }
 
   //=================================================================================
-  //===============================================================
-
-  // Incxlusão de node
+  const insertNode = () => {  
   console.log('vem antes 2  VEM ANTES 2')
   var nodeLi = document.createElement('li');
   
@@ -447,14 +468,18 @@ const menu = (menuId) => {
   list.setAttribute('class','ulmargens');
   //insere o novo nodo LI como primeiro da lista!
   list.insertBefore(nodeLi, list.childNodes[0]);
+}
 
+  //=================================================================================
+
+  // Incxlusão de node
+  //insertNode();
   console.log('inserção de ITEM  inserção de ITEM  inserção de ITEM ');
 
 
   //==============================================================
   // aqui 
   //var elemUl=document.getElementsByTagName('ul');
-  console.log('estou alanquir');
   //var elemUl=document.querySelectorAll('.scrollhorizon ul');
   var elemUl=document.querySelectorAll(menuId + ' ul');
   console.log(elemUl);
@@ -505,7 +530,7 @@ const menu = (menuId) => {
 
   var initialPos = 0;
   var initialLength = 0;
-  var intervalLength = 1000;
+  var intervalLength = 500;
   var selectedLength = 0;
   var qtItens = -1;
   var guarda = [];
@@ -574,8 +599,8 @@ const menu = (menuId) => {
   efeitoItens();
 }
 menu('.scrollhorizon');
-menu('.scrollhorizon2');
-menu('.scrollhorizon3');
+//menu('.scrollhorizon2');
+//menu('.scrollhorizon3');
 //========================================================
 
 

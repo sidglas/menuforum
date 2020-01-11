@@ -6,18 +6,31 @@
 }
 */
 
-
-html {
-	font-size: 13pt; }
+/*
+.boda {
+	font-size: 1rem;
+	background-color: greenyellow; }
 	@media screen and (max-width: 1680px) {
-	  html {
-		font-size: 11pt; } }
+		.body {
+		font-size: 2rem; 
+		background-color: greenyellow;
+	} }
+
 	@media screen and (max-width: 980px) {
-	  html {
-		font-size: 12pt; } }
+		.body {
+		font-size: 2rem; 
+		font-style: oblique;
+		background-color: burlywood;
+	} }
+
 	@media screen and (max-width: 480px) {
-	  html {
-		font-size: 11pt; } }
+		.body {
+		font-size: 1.1; 
+		font-style: normal;
+		background-color: darkgoldenrod;
+	} }
+ */ 
+  
 
 .caixa {
 	
@@ -99,7 +112,7 @@ h4 {
 
 .titfixo {
 	position: fixed;
-	width: 1600px;  
+	width: 100%; /*1600px;*/  
 	margin-top: 0px;
 	margin-bottom: 0px;
 	margin-right: 0px;
@@ -109,24 +122,29 @@ h4 {
 	z-index: 1;
 }
 
-
+.aligncenter {
+	justify-content: center;
+	
+}
 
 .scrollhorizon {
 	page-break-inside: avoid;
 	background-color: seagreen;
 	opacity: 0.8px;
 	/*max-width: 200%;*/
-	width: 1600px; 
-	top:23px;
+	width: 100%; /*1600px;*/ 
+	top:1.9rem;
 	position: fixed;
 	z-index: 1;
 
 }
 
+  
+
 .scrollhorizon1 {
 	page-break-inside: avoid;
 	background-color: tomato;
-	width: 1600px;
+	width: 100%;  /*1600px;*/
 	/*margin:0px;*/
 	bottom:0px;
 	/*right: 0px;*/
@@ -138,23 +156,19 @@ h4 {
 
 
 
-.relativinho {
-	top: 70px;
+.relativinhos {
+	top: 3.5rem;
 	/*bottom:0px;*/
 	position:relative;
 	 /*bottom 70px;*/
-	
-
-
 }
 
 .scrollhorizon ul {
 	
 	display: inline-block;
 	padding-inline-start:10px;
-	margin-top: 5px
-	margin-bottom: 10px;
-
+	margin-top: 5px;
+	margin-bottom: 0px;
 }
 
 .ulmargens {
@@ -164,7 +178,7 @@ h4 {
 
 }
 
-.scrollhorizon ul li{
+.scrollhorizon ul  li{
 	page-break-inside: avoid;
 	display: inline;
 	position:relative;
@@ -216,8 +230,8 @@ h4 {
 
 .scrollhorizon2 {
 	page-break-inside: avoid;
-	background-color: tomato;
-	width: 1600px;
+	background-color: yellowgreen;
+	width: 100%; /*1600px;*/
 	/*margin:0px;*/
 	bottom: 50px;
 	/*right: 0px;*/
@@ -231,7 +245,7 @@ h4 {
 	
 	display: inline-block;
 	padding-inline-start:10px;
-	margin-top: 5px
+	margin-top: 5px;
 	margin-bottom: 10px;
 
 }
@@ -267,9 +281,9 @@ h4 {
 .scrollhorizon3 {
 	page-break-inside: avoid;
 	background-color: tomato;
-	width: 1600px;
+	width: 100% ; /*1600px;*/
 	/*margin:0px;*/
-	bottom: 150px;
+	bottom: 55px;
 	/*right: 0px;*/
 	opacity: 0.70;
 	position: relative;
@@ -329,8 +343,6 @@ h4 {
 	height: 40px;
 
 }
-
-
 
 
 
