@@ -6,6 +6,7 @@ const menuGen = () => {
       // fork Sidnei Glasman
     
         console.log('quem vem antes, será eu? ITENS', qtItens)
+        console.log('second change for pull request')
     
       for (var cont = 0; cont <= qtItens; cont++) {
         console.log('tratando ', h4s[cont]);
