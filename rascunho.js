@@ -3,6 +3,7 @@ const menuGen = () => {
 
     function iniciaMenu() {
       // faz loop para criar os eventos dos elementos da página
+      // fork Sidnei Glasman
     
         console.log('quem vem antes, será eu? ITENS', qtItens)
     
