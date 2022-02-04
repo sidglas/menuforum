@@ -121,7 +121,7 @@ const menuGen = () => {
     
     
     //==============================================================
-    // aqui 
+    // aqui 111
     //var elemUl=document.getElementsByTagName('ul');
     console.log('estou alanquir');
     var elemUl=document.querySelectorAll('.scrollhorizon ul');
