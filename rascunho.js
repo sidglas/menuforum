@@ -122,6 +122,7 @@ const menuGen = () => {
     
     //==============================================================
     // aqui 111
+    // nova01 nova01 nova01 nova01
     //var elemUl=document.getElementsByTagName('ul');
     console.log('estou alanquir');
     var elemUl=document.querySelectorAll('.scrollhorizon ul');
