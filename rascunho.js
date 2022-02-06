@@ -123,7 +123,9 @@ const menuGen = () => {
     //==============================================================
     // aqui 111
     // nova01 nova01 nova01 nova01
+    // Criada a branch develop
     //var elemUl=document.getElementsByTagName('ul');
+    // firElem antes de qualLi
     console.log('estou alanquir');
     var elemUl=document.querySelectorAll('.scrollhorizon ul');
     console.log(elemUl);
@@ -143,8 +145,9 @@ const menuGen = () => {
     */
     
     var qtIrmaos = elemUl[0].childElementCount;
-    var qualLi =  elemUl[0].firstElementChild;
     var firstElm =  elemUl[0].firstElementChild;
+    var qualLi =  elemUl[0].firstElementChild;
+    
     
     console.log('prim. filho ' + qualLi);
     console.log(qualLi);
