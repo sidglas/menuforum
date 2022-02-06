@@ -129,6 +129,8 @@ const menuGen = () => {
     // alterada develop vez 1
     // alterada develop vez 2
     // alterada develop vez 3
+    // bloco alter develop novo 01
+    // bloco alter develop novo 02
     console.log('estou alanquir');
     var elemUl=document.querySelectorAll('.scrollhorizon ul');
     console.log(elemUl);
