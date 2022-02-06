@@ -13,7 +13,11 @@ const menuGen = () => {
     // incluído este bloco 
     // 
     //==============================================================
-
+    // Testes de git Batelada 
+    //       03
+    // incluído este bloco 
+    // 
+    //==============================================================
     function iniciaMenu() {
       // faz loop para criar os eventos dos elementos da página
       // fork Sidnei Glasman
