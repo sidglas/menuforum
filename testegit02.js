@@ -8,6 +8,11 @@ const menuGen = () => {
     // incluído este arquivo testegit02.js
     // agora farei o add e o commit, mas não vou fazer push
     //==============================================================
+    // Testes de git Batelada 
+    //       02
+    // incluído este bloco 
+    // 
+    //==============================================================
 
     function iniciaMenu() {
       // faz loop para criar os eventos dos elementos da página
