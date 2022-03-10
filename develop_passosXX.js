@@ -22,6 +22,11 @@ const menuGen = () => {
     // a cada commit adiciono um quadro igual a este, mudando o passo
     // 
     //==============================================================
+    // develop_passoA1 - novo commit a ser feito, 
+    // ficando na develop
+    // a cada commit adiciono um quadro igual a este, mudando o passo
+    // 
+    //==============================================================
 
     function iniciaMenu() {
       // faz loop para criar os eventos dos elementos da página
